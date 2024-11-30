@@ -1,0 +1,20 @@
+/* Form Builder Panel */
+.form-builder-panel {
+  background-color: #ffffff; /* Match Bootstrap's default card background */
+  padding: 1rem; /* Use rem instead of px for better scaling */
+  border: 1px solid #ced4da; /* Match Bootstrap border style */
+  border-radius: 0.25rem; /* Match Bootstrap border radius */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add subtle shadow */
+}
+
+/* Form.io Custom Button Styling */
+.formio-component-button .btn {
+  background-color: #007bff; /* Bootstrap primary button color */
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.formio-component-button .btn:hover {
+  background-color: #0056b3; /* Darker shade for hover */
+}
